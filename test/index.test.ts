@@ -1,7 +1,9 @@
 import { describe, expect, it } from "vitest";
 
+import { isNode } from "../src";
+
 describe("should", () => {
-  it("exported", () => {
-    expect(1).toEqual(1);
+  it("be node", () => {
+    expect(isNode()).toEqual(true);
   });
 });

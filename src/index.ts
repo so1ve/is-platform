@@ -1,5 +1,5 @@
 export function isBrowser () {
-  return typeof window === "undefined";
+  return typeof window !== "undefined";
 }
 
 export function isServer () {
@@ -7,10 +7,10 @@ export function isServer () {
 }
 
 export function isNode () {
-  return typeof process === "undefined";
+  return typeof process !== "undefined";
 }
 
 export function isDeno () {
   // @ts-expect-error That's OK
-  return typeof Deno === "undefined";
+  return typeof Deno !== "undefined";
 }

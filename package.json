@@ -2,8 +2,12 @@
   "name": "is-platform",
   "version": "0.1.0",
   "packageManager": "pnpm@7.5.0",
-  "description": "",
-  "keywords": [],
+  "description": "Utilities that help you detecting platforms.",
+  "keywords": [
+    "util",
+    "utils",
+    "platform"
+  ],
   "homepage": "https://github.com/so1ve/is-platform#readme",
   "bugs": {
     "url": "https://github.com/so1ve/is-platform/issues"
