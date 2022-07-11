@@ -1,6 +1,6 @@
 {
   "name": "is-platform",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "packageManager": "pnpm@7.5.0",
   "description": "Utilities that help you detecting platforms.",
   "keywords": [
