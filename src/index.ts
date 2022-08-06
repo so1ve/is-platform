@@ -1,5 +1,6 @@
 export function isBrowser () {
-  return typeof window !== "undefined";
+  // In deno, window exists
+  return typeof window !== "undefined" && typeof document !== "undefined";
 }
 
 export function isServer () {
