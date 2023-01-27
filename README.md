@@ -5,10 +5,13 @@
 ## Usage
 
 ```ts
-import { isDeno, isNode } from "is-platform";
+import { IS_DENO, IS_NODE, IS_BROWSER, IS_SERVER, IS_ELECTRON } from "is-platform";
 
-isNode(); // node => true, deno => false
-isDeno(); // deno => true, node => false
+IS_NODE; // node => true, deno => false
+IS_DENO; // deno => true, node => false
+IS_BROWSER; // browser => true
+IS_SERVER; // server, e.g. deno or node => true
+IS_ELECTRON; // electron => true
 ```
 
 ## License
