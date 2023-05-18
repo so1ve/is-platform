@@ -2,6 +2,7 @@
   "name": "is-platform",
   "version": "1.0.0",
   "packageManager": "pnpm@7.32.4",
+  "author": "Ray <nn_201312@163.com> (@so1ve)",
   "description": "Utilities that help you detecting platforms.",
   "keywords": [
     "util",
@@ -9,25 +10,25 @@
     "platform"
   ],
   "homepage": "https://github.com/so1ve/is-platform#readme",
-  "bugs": {
-    "url": "https://github.com/so1ve/is-platform/issues"
-  },
-  "license": "MIT",
-  "author": "Ray <nn_201312@163.com> (@so1ve)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/so1ve/is-platform.git"
   },
+  "bugs": {
+    "url": "https://github.com/so1ve/is-platform/issues"
+  },
+  "license": "MIT",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs",
-      "types": "./dist/index.d.ts"
-    }
-  },
   "typesVersions": {
     "*": {
       "*": [
@@ -39,7 +40,6 @@
   "files": [
     "dist"
   ],
-  "sideEffects": false,
   "scripts": {
     "build": "rimraf dist && unbuild",
     "dev": "unbuild --stub",
@@ -54,7 +54,7 @@
   "devDependencies": {
     "@antfu/ni": "^0.21.0",
     "@babel/types": "^7.18.7",
-    "@so1ve/eslint-config": "^0.22.0",
+    "@so1ve/eslint-config": "^0.86.0",
     "@types/node": "^18.0.1",
     "bumpp": "^9.0.0",
     "eslint": "^8.40.0",

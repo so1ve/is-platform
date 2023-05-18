@@ -5,7 +5,13 @@
 ## Usage
 
 ```ts
-import { IS_BROWSER, IS_DENO, IS_ELECTRON, IS_NODE, IS_SERVER } from "is-platform";
+import {
+  IS_BROWSER,
+  IS_DENO,
+  IS_ELECTRON,
+  IS_NODE,
+  IS_SERVER,
+} from "is-platform";
 
 IS_NODE; // node => true, deno => false
 IS_DENO; // deno => true, node => false
