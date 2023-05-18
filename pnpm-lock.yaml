@@ -7,7 +7,7 @@ specifiers:
   '@types/node': ^18.0.1
   bumpp: ^9.0.0
   eslint: ^8.40.0
-  pnpm: ^7.5.0
+  pnpm: ^8.0.0
   rimraf: ^5.0.0
   tsx: ^3.7.1
   typescript: ^5.0.0
@@ -22,7 +22,7 @@ devDependencies:
   '@types/node': 18.0.1
   bumpp: 9.1.0
   eslint: 8.40.0
-  pnpm: 7.5.0
+  pnpm: 8.5.1
   rimraf: 5.0.1
   tsx: 3.7.1
   typescript: 5.0.4
@@ -3389,9 +3389,9 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.5.0:
-    resolution: {integrity: sha512-sb9wJNyx/d8l3Gze2jI1y8BGNbb/ga+JT3SrGNiH+C5KbtZ4wmgePBWGjaiGugcpT9+vQ5MO//+QlVWhMCpedQ==}
-    engines: {node: '>=14.6'}
+  /pnpm/8.5.1:
+    resolution: {integrity: sha512-W6elL7Nww0a/MCICkzpkbxW6f99TQuX4DuJoDjWp39X08PKDkEpg4cgj3d6EtgYADcdQWl/eM8NdlLJVE3RgpA==}
+    engines: {node: '>=16.14'}
     hasBin: true
     dev: true
 
