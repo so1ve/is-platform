@@ -56,7 +56,7 @@
     "@babel/types": "^7.18.7",
     "@so1ve/eslint-config": "^0.22.0",
     "@types/node": "^18.0.1",
-    "bumpp": "^8.2.1",
+    "bumpp": "^9.0.0",
     "eslint": "^8.19.0",
     "pnpm": "^7.5.0",
     "rimraf": "^3.0.2",
