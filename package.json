@@ -5,9 +5,9 @@
   "author": "Ray <nn_201312@163.com> (@so1ve)",
   "description": "Utilities that help you detecting platforms.",
   "keywords": [
+    "platform",
     "util",
-    "utils",
-    "platform"
+    "utils"
   ],
   "homepage": "https://github.com/so1ve/is-platform#readme",
   "repository": {
@@ -54,7 +54,7 @@
   "devDependencies": {
     "@antfu/ni": "^0.21.0",
     "@babel/types": "^7.18.7",
-    "@so1ve/eslint-config": "^0.93.0",
+    "@so1ve/eslint-config": "^0.107.0",
     "@types/node": "^18.0.1",
     "bumpp": "^9.0.0",
     "eslint": "^8.40.0",
