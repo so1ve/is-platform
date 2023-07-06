@@ -6,11 +6,11 @@
 
 ```ts
 import {
-  IS_BROWSER,
-  IS_DENO,
-  IS_ELECTRON,
-  IS_NODE,
-  IS_SERVER,
+	IS_BROWSER,
+	IS_DENO,
+	IS_ELECTRON,
+	IS_NODE,
+	IS_SERVER,
 } from "is-platform";
 
 IS_NODE; // node => true, deno => false
