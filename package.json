@@ -1,7 +1,7 @@
 {
   "name": "is-platform",
   "version": "1.0.0",
-  "packageManager": "pnpm@8.6.0",
+  "packageManager": "pnpm@8.15.5",
   "author": "Ray <nn_201312@163.com> (@so1ve)",
   "description": "Utilities that help you detecting platforms.",
   "keywords": [
